@@ -27,6 +27,7 @@ namespace QuanLyNhanSu.GUI
         void LoadNhanVien()
         {
             list.DataSource = NhanVienDAO.LoadNhanVien();
+        }
         
         void AddNhanVienBinding()
         {
