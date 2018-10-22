@@ -30,8 +30,8 @@ namespace QuanLyNhanSu.GUI
         void LoadcboNhanVien()
         {
             cboQuaTrinhHocTap.DataSource = NhanVienDAO.LoadCboNhanVien();
-            cboQuaTrinhHocTap.DisplayMember = "HOTN";
-            cboQuaTrinhHocTap.ValueMember = "NHANVIEID";
+            cboQuaTrinhHocTap.DisplayMember = "HOTEN";
+            cboQuaTrinhHocTap.ValueMember = "NHANVIENID";
         }
         void AddQuaTrinhHocTapBinding()
         {
