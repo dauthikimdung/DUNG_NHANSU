@@ -17,6 +17,7 @@ namespace QuanLyNhanSu.DAO
 
             return data;
         }
+        // ok
         public static int InsertKTKL(int idnv, int hinhthuc, string noidung, DateTime thoigian)
         {
             string query = "INSERTKHENTHUONGKYLUAT @IDNV ,  @HINHTHUC , @NOIDUNG , @THOIGIAN ";
