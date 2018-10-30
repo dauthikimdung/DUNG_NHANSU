@@ -11,7 +11,7 @@ namespace QuanLyNhanSu.DAO
     {
         public static DataTable LoadBaoHiemYTe()
         {
-            string query = "SELECT HOTN, BAOHIEMYTEID, SOTHE, NGAYNOP, B.NHANVIENID FROM BAOHIEMYTE B, NHANVIEN N WHERE B.NHANVIENID = N.NHANVIENID";
+            string query = "SELECT HOTEN, BAOHIEMYTEID, SOTHE, NGAYNOP, B.NHANVIENID FROM BAOHIEMYTE B, NHANVIEN N WHERE B.NHANVIENID = N.NHANVIENID";
 
             DataTable data = SqlServerHelper.ExecuteQuery(query);
 
@@ -19,7 +19,7 @@ namespace QuanLyNhanSu.DAO
         }
         public static int InsertBaoHiemYTe(int idnv, string sothe, DateTime ngaynop)
         {
-            string query = "INSERTBAOHIEMTE @IDNV , @SOTHE , @NGAYNOP ";
+            string query = "INSERTBAOHIEMYTE @IDNV , @SOTHE , @NGAYNOP ";
 
             return SqlServerHelper.ExecuteNonQuery(query, new object[] { idnv, sothe, ngaynop });
         }
