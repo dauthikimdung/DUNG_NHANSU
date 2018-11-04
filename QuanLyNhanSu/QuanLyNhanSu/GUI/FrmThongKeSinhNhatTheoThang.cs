@@ -41,7 +41,7 @@ namespace QuanLyNhanSu.GUI
             string FileName = saveFileDialog1.FileName.ToString();
             try
             {
-                //dgrThongKeSinhNhat.ExportToXls(FileName);
+                dgrThongKeSinhNhat.ExportToXls(FileName);
                 MessageBox.Show("Xuất file excel thành công");
             }
             catch
