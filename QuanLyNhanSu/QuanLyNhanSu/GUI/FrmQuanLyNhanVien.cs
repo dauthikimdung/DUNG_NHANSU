@@ -28,7 +28,18 @@ namespace QuanLyNhanSu.GUI
         {
             list.DataSource = NhanVienDAO.LoadNhanVien();
         }
-        
+        void LoadcboPhongBan()
+        {
+            cboDonVi.DataSource = PhongBanDAO.LoadPhongBan();
+            cboDonVi.DisplayMember = "TEN";
+            cboDonVi.ValueMember = "PHONGBANID";
+        }
+        void LoadcboChucVu()
+        {
+            cboChucVu.DataSource = ChucVuDAO.LoadChucVu();
+            cboChucVu.DisplayMember = "TEN";
+            cboChucVu.ValueMember = "CHUCVUID";
+        }
         void AddNhanVienBinding()
         {
             txbHoTen.DataBindings.Add(new Binding("Text", dgrQuanLyNhanVien.DataSource, "HOTEN", true, DataSourceUpdateMode.Never));
