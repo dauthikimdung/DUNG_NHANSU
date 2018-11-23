@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHopDongLaoDong));
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.label3 = new System.Windows.Forms.Label();
             this.btnSua = new DevExpress.XtraEditors.SimpleButton();
             this.btnThem = new DevExpress.XtraEditors.SimpleButton();
@@ -129,7 +129,7 @@
             this.groupBox1.Size = new System.Drawing.Size(510, 278);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin hợp đồng lao động";
+            this.groupBox1.Text = " Hợp đồng lao động";
             // 
             // cboLoaiLuong
             // 
@@ -207,9 +207,9 @@
             // 
             // dgrHopDongLaoDong
             // 
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.dgrHopDongLaoDong.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.dgrHopDongLaoDong.Location = new System.Drawing.Point(15, 34);
             this.dgrHopDongLaoDong.MainView = this.grvHopDongLaoDong;
             this.dgrHopDongLaoDong.Name = "dgrHopDongLaoDong";

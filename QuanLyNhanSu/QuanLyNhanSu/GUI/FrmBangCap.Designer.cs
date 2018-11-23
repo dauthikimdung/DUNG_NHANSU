@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBangCap));
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.dtpThoiGian = new DevExpress.XtraEditors.DateEdit();
             this.cboBangCap = new System.Windows.Forms.ComboBox();
             this.btnThem = new DevExpress.XtraEditors.SimpleButton();
@@ -74,7 +74,7 @@
             // 
             this.cboBangCap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBangCap.FormattingEnabled = true;
-            this.cboBangCap.Location = new System.Drawing.Point(219, 16);
+            this.cboBangCap.Location = new System.Drawing.Point(139, 19);
             this.cboBangCap.Name = "cboBangCap";
             this.cboBangCap.Size = new System.Drawing.Size(197, 21);
             this.cboBangCap.TabIndex = 43;
@@ -163,9 +163,9 @@
             // 
             // dgrBangCap
             // 
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.dgrBangCap.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.dgrBangCap.Location = new System.Drawing.Point(15, 52);
             this.dgrBangCap.MainView = this.grvBangCap;
             this.dgrBangCap.Name = "dgrBangCap";
@@ -244,11 +244,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 19);
+            this.label3.Location = new System.Drawing.Point(63, 22);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(178, 13);
+            this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 50;
-            this.label3.Text = "Danh sách bằng cấp của nhân viên";
+            this.label3.Text = "Nhân viên";
             // 
             // btnXuat
             // 
@@ -278,6 +278,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmBangCap";
             this.Text = "FrmBangCap";
+            this.Load += new System.EventHandler(this.FrmBangCap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtpThoiGian.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtpThoiGian.Properties)).EndInit();
             this.groupBox1.ResumeLayout(false);

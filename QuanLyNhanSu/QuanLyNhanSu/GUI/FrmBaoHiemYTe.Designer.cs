@@ -231,7 +231,7 @@
             this.groupBox1.Size = new System.Drawing.Size(510, 256);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin bảo hiểm y tế";
+            this.groupBox1.Text = "Bảo hiểm y tế";
             // 
             // label5
             // 

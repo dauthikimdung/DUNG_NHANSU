@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuaTrinhCongTac));
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.label5 = new System.Windows.Forms.Label();
             this.txbNoiDung = new System.Windows.Forms.TextBox();
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
@@ -101,11 +101,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 18);
+            this.label3.Location = new System.Drawing.Point(115, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 13);
+            this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 42;
-            this.label3.Text = "Quá trình công tác của nhân viên";
+            this.label3.Text = "Nhân viên";
             // 
             // grvQuaTrinhCongTac
             // 
@@ -155,9 +155,9 @@
             // 
             // dgrQuaTrinhCongTac
             // 
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.dgrQuaTrinhCongTac.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.dgrQuaTrinhCongTac.Location = new System.Drawing.Point(15, 51);
             this.dgrQuaTrinhCongTac.MainView = this.grvQuaTrinhCongTac;
             this.dgrQuaTrinhCongTac.Name = "dgrQuaTrinhCongTac";
@@ -212,7 +212,7 @@
             this.groupBox1.Size = new System.Drawing.Size(510, 256);
             this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Chi tiết quá trình công tác";
+            this.groupBox1.Text = "quá trình công tác";
             // 
             // dtpBatDau
             // 

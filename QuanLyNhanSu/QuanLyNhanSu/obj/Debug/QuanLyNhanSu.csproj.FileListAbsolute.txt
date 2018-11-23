@@ -527,8 +527,6 @@ E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\de\DevExpress.Office.v16
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
-E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojFakesResolveAssemblyReference.cache
-E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.FrmBangCap.resources
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.FrmBaoHiemXaHoi.resources
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.FrmBaoHiemYTe.resources

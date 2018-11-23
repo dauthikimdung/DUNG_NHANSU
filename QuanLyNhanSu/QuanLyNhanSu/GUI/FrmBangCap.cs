@@ -134,5 +134,10 @@ namespace QuanLyNhanSu.GUI
         {
             this.Close();
         }
+
+        private void FrmBangCap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
