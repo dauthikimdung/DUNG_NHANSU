@@ -548,3 +548,4 @@ E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.Gene
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe.licenses
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+E:\ghub\DUNG_NHANSU\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojFakesResolveAssemblyReference.cache
