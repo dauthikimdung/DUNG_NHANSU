@@ -225,7 +225,7 @@
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Location = new System.Drawing.Point(722, 373);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(510, 43);
+            this.btnXoa.Size = new System.Drawing.Size(252, 43);
             this.btnXoa.TabIndex = 47;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -234,9 +234,9 @@
             // 
             this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(722, 471);
+            this.simpleButton1.Location = new System.Drawing.Point(722, 436);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(510, 43);
+            this.simpleButton1.Size = new System.Drawing.Size(252, 43);
             this.simpleButton1.TabIndex = 46;
             this.simpleButton1.Text = "Đóng chức năng";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
@@ -254,9 +254,9 @@
             // 
             this.btnXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnXuat.Image")));
-            this.btnXuat.Location = new System.Drawing.Point(722, 422);
+            this.btnXuat.Location = new System.Drawing.Point(980, 373);
             this.btnXuat.Name = "btnXuat";
-            this.btnXuat.Size = new System.Drawing.Size(510, 43);
+            this.btnXuat.Size = new System.Drawing.Size(252, 43);
             this.btnXuat.TabIndex = 83;
             this.btnXuat.Text = "Xuất ra file excel";
             this.btnXuat.Click += new System.EventHandler(this.btnXuat_Click);

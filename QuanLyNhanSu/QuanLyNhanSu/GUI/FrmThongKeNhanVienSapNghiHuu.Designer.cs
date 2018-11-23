@@ -62,9 +62,9 @@
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
-            this.btnDong.Location = new System.Drawing.Point(39, 469);
+            this.btnDong.Location = new System.Drawing.Point(198, 398);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(466, 43);
+            this.btnDong.Size = new System.Drawing.Size(150, 43);
             this.btnDong.TabIndex = 106;
             this.btnDong.Text = "Đóng chức năng";
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
@@ -73,9 +73,9 @@
             // 
             this.btnXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnXuat.Image")));
-            this.btnXuat.Location = new System.Drawing.Point(39, 420);
+            this.btnXuat.Location = new System.Drawing.Point(198, 336);
             this.btnXuat.Name = "btnXuat";
-            this.btnXuat.Size = new System.Drawing.Size(466, 43);
+            this.btnXuat.Size = new System.Drawing.Size(150, 43);
             this.btnXuat.TabIndex = 107;
             this.btnXuat.Text = "Xuất ra file excel";
             this.btnXuat.Click += new System.EventHandler(this.btnXuat_Click);
@@ -91,17 +91,17 @@
             this.groupBox1.Size = new System.Drawing.Size(466, 152);
             this.groupBox1.TabIndex = 104;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thống kê nhân viên sắp nghỉ hưu";
+            this.groupBox1.Text = " nhân viên  theo tuổi";
             // 
             // rbtnNhanVienSapNghiHuu
             // 
             this.rbtnNhanVienSapNghiHuu.AutoSize = true;
             this.rbtnNhanVienSapNghiHuu.Location = new System.Drawing.Point(57, 63);
             this.rbtnNhanVienSapNghiHuu.Name = "rbtnNhanVienSapNghiHuu";
-            this.rbtnNhanVienSapNghiHuu.Size = new System.Drawing.Size(138, 17);
+            this.rbtnNhanVienSapNghiHuu.Size = new System.Drawing.Size(114, 17);
             this.rbtnNhanVienSapNghiHuu.TabIndex = 14;
             this.rbtnNhanVienSapNghiHuu.TabStop = true;
-            this.rbtnNhanVienSapNghiHuu.Text = "Nhân viên sắp nghỉ hưu";
+            this.rbtnNhanVienSapNghiHuu.Text = "Nhân viên lâu năm";
             this.rbtnNhanVienSapNghiHuu.UseVisualStyleBackColor = true;
             // 
             // rbtnNhanVienMoi

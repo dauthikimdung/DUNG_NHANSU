@@ -503,7 +503,7 @@
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.Location = new System.Drawing.Point(722, 470);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(510, 43);
+            this.btnDong.Size = new System.Drawing.Size(252, 43);
             this.btnDong.TabIndex = 10;
             this.btnDong.Text = "Đóng chức năng";
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);

@@ -192,7 +192,7 @@
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.Location = new System.Drawing.Point(723, 376);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(510, 43);
+            this.btnThem.Size = new System.Drawing.Size(252, 43);
             this.btnThem.TabIndex = 20;
             this.btnThem.Text = "Thêm";
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
@@ -201,7 +201,7 @@
             // 
             this.btnXoa.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
-            this.btnXoa.Location = new System.Drawing.Point(981, 425);
+            this.btnXoa.Location = new System.Drawing.Point(982, 376);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(252, 43);
             this.btnXoa.TabIndex = 19;
@@ -212,9 +212,9 @@
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
-            this.btnDong.Location = new System.Drawing.Point(723, 474);
+            this.btnDong.Location = new System.Drawing.Point(982, 425);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(510, 43);
+            this.btnDong.Size = new System.Drawing.Size(252, 43);
             this.btnDong.TabIndex = 18;
             this.btnDong.Text = "Đóng chức năng";
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);

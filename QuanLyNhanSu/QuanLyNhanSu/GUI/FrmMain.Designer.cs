@@ -54,6 +54,7 @@
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.panelMain = new DevExpress.XtraEditors.PanelControl();
+            this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelMain)).BeginInit();
             this.SuspendLayout();
@@ -81,6 +82,7 @@
             this.barQLChamCong});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.MaxItemId = 25;
+            this.ribbonControl1.MiniToolbars.Add(this.ribbonMiniToolbar1);
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
@@ -88,7 +90,7 @@
             // 
             // barQuanLyNhanVien
             // 
-            this.barQuanLyNhanVien.Caption = "Quản lý nhân viên";
+            this.barQuanLyNhanVien.Caption = "Nhân viên";
             this.barQuanLyNhanVien.Glyph = ((System.Drawing.Image)(resources.GetObject("barQuanLyNhanVien.Glyph")));
             this.barQuanLyNhanVien.Id = 1;
             this.barQuanLyNhanVien.Name = "barQuanLyNhanVien";
@@ -142,7 +144,7 @@
             // 
             // barQuaTrinhCongTac
             // 
-            this.barQuaTrinhCongTac.Caption = "Quá trình công tác";
+            this.barQuaTrinhCongTac.Caption = "Hoạt động công tác";
             this.barQuaTrinhCongTac.Glyph = ((System.Drawing.Image)(resources.GetObject("barQuaTrinhCongTac.Glyph")));
             this.barQuaTrinhCongTac.Id = 7;
             this.barQuaTrinhCongTac.Name = "barQuaTrinhCongTac";
@@ -160,7 +162,7 @@
             // 
             // barQuaTrinhHocTap
             // 
-            this.barQuaTrinhHocTap.Caption = "Quá trình học tập";
+            this.barQuaTrinhHocTap.Caption = "hoạt động học tập";
             this.barQuaTrinhHocTap.Glyph = ((System.Drawing.Image)(resources.GetObject("barQuaTrinhHocTap.Glyph")));
             this.barQuaTrinhHocTap.Id = 9;
             this.barQuaTrinhHocTap.Name = "barQuaTrinhHocTap";
@@ -169,7 +171,7 @@
             // 
             // barThongTinKhenThuongKiLuat
             // 
-            this.barThongTinKhenThuongKiLuat.Caption = "Thông tin khen thưởng kỉ luật";
+            this.barThongTinKhenThuongKiLuat.Caption = " khen thưởng kỉ luật";
             this.barThongTinKhenThuongKiLuat.Glyph = ((System.Drawing.Image)(resources.GetObject("barThongTinKhenThuongKiLuat.Glyph")));
             this.barThongTinKhenThuongKiLuat.Id = 12;
             this.barThongTinKhenThuongKiLuat.Name = "barThongTinKhenThuongKiLuat";
@@ -188,7 +190,7 @@
             // 
             // barThongKeTheoNhanVien
             // 
-            this.barThongKeTheoNhanVien.Caption = "Nhân viên theo phòng ban";
+            this.barThongKeTheoNhanVien.Caption = "nhân viên theo phòng ban và chức vụ";
             this.barThongKeTheoNhanVien.Glyph = ((System.Drawing.Image)(resources.GetObject("barThongKeTheoNhanVien.Glyph")));
             this.barThongKeTheoNhanVien.Id = 16;
             this.barThongKeTheoNhanVien.Name = "barThongKeTheoNhanVien";
@@ -197,7 +199,7 @@
             // 
             // barThongKeNhanVienSapNghiHuu
             // 
-            this.barThongKeNhanVienSapNghiHuu.Caption = "Nhân viên sắp nghỉ hưu";
+            this.barThongKeNhanVienSapNghiHuu.Caption = "Nhân viên mới cũ";
             this.barThongKeNhanVienSapNghiHuu.Glyph = ((System.Drawing.Image)(resources.GetObject("barThongKeNhanVienSapNghiHuu.Glyph")));
             this.barThongKeNhanVienSapNghiHuu.Id = 17;
             this.barThongKeNhanVienSapNghiHuu.Name = "barThongKeNhanVienSapNghiHuu";
@@ -206,7 +208,7 @@
             // 
             // barThongKeSinhNhatTheoThang
             // 
-            this.barThongKeSinhNhatTheoThang.Caption = "Sinh nhật theo tháng";
+            this.barThongKeSinhNhatTheoThang.Caption = "Sinh nhật";
             this.barThongKeSinhNhatTheoThang.Glyph = ((System.Drawing.Image)(resources.GetObject("barThongKeSinhNhatTheoThang.Glyph")));
             this.barThongKeSinhNhatTheoThang.Id = 19;
             this.barThongKeSinhNhatTheoThang.Name = "barThongKeSinhNhatTheoThang";
@@ -328,6 +330,7 @@
         private DevExpress.XtraBars.BarButtonItem barThongKeSinhNhatTheoThang;
         private DevExpress.XtraBars.BarButtonItem barQLChamCong;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
+        private DevExpress.XtraBars.Ribbon.RibbonMiniToolbar ribbonMiniToolbar1;
         //private DevExpress.XtraBars.BarButtonItem barUser;
 
 

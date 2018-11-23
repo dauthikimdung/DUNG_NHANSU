@@ -210,7 +210,7 @@
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Location = new System.Drawing.Point(722, 421);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(510, 43);
+            this.btnXoa.Size = new System.Drawing.Size(252, 43);
             this.btnXoa.TabIndex = 25;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -219,9 +219,9 @@
             // 
             this.btnXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnXuat.Image")));
-            this.btnXuat.Location = new System.Drawing.Point(722, 470);
+            this.btnXuat.Location = new System.Drawing.Point(982, 421);
             this.btnXuat.Name = "btnXuat";
-            this.btnXuat.Size = new System.Drawing.Size(510, 43);
+            this.btnXuat.Size = new System.Drawing.Size(252, 43);
             this.btnXuat.TabIndex = 24;
             this.btnXuat.Text = "Đóng chức năng";
             this.btnXuat.Click += new System.EventHandler(this.btnXuat_Click);

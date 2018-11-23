@@ -81,5 +81,10 @@ namespace QuanLyNhanSu.GUI
         {
             this.Close();
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

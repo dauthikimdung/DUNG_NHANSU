@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuanLyPhongBan));
             this.dgrPhongBan = new DevExpress.XtraGrid.GridControl();
             this.grvPhongBan = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -49,9 +49,9 @@
             // 
             // dgrPhongBan
             // 
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.dgrPhongBan.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.dgrPhongBan.Location = new System.Drawing.Point(15, 25);
             this.dgrPhongBan.MainView = this.grvPhongBan;
             this.dgrPhongBan.Name = "dgrPhongBan";
@@ -155,7 +155,7 @@
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Location = new System.Drawing.Point(722, 421);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(510, 43);
+            this.btnXoa.Size = new System.Drawing.Size(252, 43);
             this.btnXoa.TabIndex = 12;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -164,9 +164,9 @@
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
-            this.btnDong.Location = new System.Drawing.Point(722, 470);
+            this.btnDong.Location = new System.Drawing.Point(980, 421);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(510, 43);
+            this.btnDong.Size = new System.Drawing.Size(252, 43);
             this.btnDong.TabIndex = 11;
             this.btnDong.Text = "Đóng chức năng";
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
